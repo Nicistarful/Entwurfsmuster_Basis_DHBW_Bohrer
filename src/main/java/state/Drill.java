@@ -38,7 +38,7 @@ public class Drill {
         Logger.log("Drill is now in state " + state.getClass().getSimpleName());
     }
 
-    public void pressButton(){
+    public void pressButton() {
         Logger.log("Button was pressed");
         state.pressButton();
     }
